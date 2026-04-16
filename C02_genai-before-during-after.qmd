@@ -154,7 +154,7 @@ It is good practice to design your rubric in a step-by-step fashion. Here is a q
 >
 > Allocate [Insert Points] to each dimension. For each, provide detailed descriptors for the following grade boundaries: [Insert Boundaries, e.g., 70+, 60-69, 50-59, 40-49, and <40]. Ensure the descriptors show clear progression and discrimination between the levels.
 
-**Example output:** For a 'Technical Execution' dimension (40 points [TODO the output here suggests 100 points, not 40]), the LLM might produce:
+**Example output:** For a 'Technical Execution' dimension (100 points), the LLM might produce:
 	
 	Grade
 	Descriptor
@@ -174,7 +174,7 @@ While an LLM is excellent at generating "scaffolded" text, it often relies on ge
 
 ### Using GenAI to develop a model solution
 
-Finally, we can request a model solution that incorporates both of these components. This will vary significantly depending on the assignment type; it works best for tests and less well for essays. A typical rule of thumb is that the larger the assessment, the worse the model answer will be. Regardless, these model answers can be used to quickly estimate what a solution may look like --- we can even request multiple solutions from different ability levels! This will help us understand the typing [TODO: do you mean "typical"?] LLM style for solving the problem and provide a better idea of when students overrely on GenAI output.
+Finally, we can request a model solution that incorporates both of these components. This will vary significantly depending on the assignment type; it works best for tests and less well for essays. A typical rule of thumb is that the larger the assessment, the worse the model answer will be. Regardless, these model answers can be used to quickly estimate what a solution may look like --- we can even request multiple solutions from different ability levels! This will help us understand the typical LLM style for solving the problem and provide a better idea of when students overrely on GenAI output.
 
 This can also serve an additional purpose --- to test an LLM’s capability to solve your coursework. This can be a good way to see how "LLM-proof" your assignment is, especially if the use of GenAI is prohibited. This can aid in either redeveloping aspects of an assignment or in developing an understanding of how an LLM may assist students in completing this specific assignment.
 
@@ -299,6 +299,8 @@ Using GenAI, you can create a "Feedback Persona" simply by "teaching" a standard
 ### Reflection: Ethics and the "human-in-the-loop"
 
 When using a "Feedback Persona", data privacy is paramount. Never input a student's full name, ID number, or sensitive personal details into a public LLM. As mentioned earlier, some institutions may provide you with a more secure, local version of an LLM for safer use. Please read your institution's policy on GenAI and LLM usage before attempting this. 
+
+It is also important to consider what staff-generated materials are shared with commercial LLMs. Uploading assignment briefs, marking schemes, or model solutions to public systems may result in this content being incorporated into future model training data, depending on the provider’s policies. This creates a risk that students could later access high-quality or even complete solutions via the same tools. Where possible, opt out of data sharing (sometimes referred to as incognito or private mode), use institutionally approved systems, or avoid uploading full solutions altogether.
 
 Treat the AI-generated text as a "first draft" --- always review it to ensure it accurately reflects your marking notes before sending it to the student. Transparency is also key; informing students that you use GenAI to help synthesise your handwritten notes into formal feedback builds trust and models professional GenAI usage. In our experience, students have been okay with this, and when they have challenged it, we have provided them with the raw feedback notes to show that marking has been done manually.
 
