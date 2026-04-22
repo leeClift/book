@@ -5,7 +5,7 @@ author:
   - name: Lee Clift
     email: lee.clift@strath.ac.uk
     corresponding: true
-    affiliations: Department of Computer and Infomation Science, University of Strathclyde
+    affiliations: Department of Computer and Information Science, University of Strathclyde
   - name: Olga Petrovska
     email: olga.petrovska@swansea.ac.uk
     corresponding: true
@@ -89,10 +89,10 @@ Courseworks are usually rather involved assignments and require a detailed brief
 
 #### Practical tip: Providing examples
 
-You can use GenAI to generate an assignment by following the following steps:
+You can use GenAI to generate an assignment by following these steps:
 
 1. Determine and define the key aspects: the assignment type, the concepts you wish to test, the level of study, and a potential theme. If you do not have a theme, you can ask an LLM for a suggestion. 
-2. Provide some key teaching material you have used (either as PDFs, PPT’s or code snippets) to help "ground" your assignment. When doing so, ensure that the LLM you are using does not use your content for training and does not make it publicly accessible. Educational institutions often have special licensing agreements with specific LLM providers to protect institutional data, so it is worth checking whether your university has such an agreement and which provider it covers.
+2. Provide some key teaching material you have used (either as PDFs, PPTs or code snippets) to help "ground" your assignment. When doing so, ensure that the LLM you are using does not use your content for training and does not make it publicly accessible. Educational institutions often have special licensing agreements with specific LLM providers to protect institutional data, so it is worth checking whether your university has such an agreement and which provider it covers.
 3. Provide a previous example (such as last year’s coursework) that an LLM can use to format your brief similarly to your previous assignments, so they all look uniform.
 4. Do not be afraid to ask for multiple suggestions or request changes. Review and refine the LLM output, and then follow institutional moderation guidelines.
 
@@ -209,7 +209,7 @@ A general rule of thumb is that the larger and more open-ended the assessment, t
 
 ## During assessments 
 
-While all the above uses of GenAI revolved around helping you to write an assignment, we should not forget that using LLMs effectively is becoming a desired skill [@petrovska2023generative]. Hence, we need to prepare students for the real-world challenges, where businesses are proactively integrating LLMs into their processes. How do we do this? By offering them more authentic assignments that encourage them to explore different aspects of LLMs, learners can learn to use these tools as helpers and not all-knowing oracles.
+While all the above uses of GenAI revolved around helping you to write an assignment, we should not forget that using LLMs effectively is becoming a desired skill [@petrovska2023generative]. Hence, we need to prepare students for the real-world challenges, where businesses are proactively integrating LLMs into their processes. How do we do this? By offering them more authentic assignments that encourage them to explore different aspects of LLMs, students can learn to use these tools as helpers and not all-knowing oracles.
 
 In our experience, students generally enjoy exploring GenAI as part of an assessment activity, provided it is not mandatory. Some students are ethically opposed to using GenAI; therefore, offering it as an optional assistive tool allows those who wish to engage with it to do so, without requiring participation from those who prefer not to use it. In cases where GenAI usage is required (such as reflective exercises --- covered in the upcoming sections), providing examples for students to reflect without having to use the tool themselves can help mitigate any student concerns.
 
@@ -226,7 +226,7 @@ Historically, programming assignments have been evaluated based on whether the s
 
 ### Allowing unlimited (but documented) use of GenAI
 
-In one of our experimental studies [@clift2025learning], we have allowed students to use GenAI without restriction for their mobile application development projects. A word of warning: this type of exposure is not recommended for novice programmers, as their metacognitive skills and self-efficacy may not be well developed. They may not have acquired the required fundamental skills to fully appreciate and understand the benefits GenAI can offer or recognise its pitfalls. When applied to experienced programmers (for example, final-year degree students), the inclusion of and unlimited access to these tools can provide a constructivist learning environment in which students explore how the tools work and how to integrate them effectively into their own development processes. Results show that allowing GenAI usage during assessments leads to larger, more ambitious solutions being attained, while also encouraging students to learn about GenAI tools and their capabilities [@clift2025learning].
+In one of our experimental studies [@clift2025learning], we have allowed students to use GenAI without restriction for their mobile application development projects. A word of warning: this type of exposure is not recommended for novice programmers, as their metacognitive skills and self-efficacy may not be well developed. They may not have acquired the required fundamental skills to fully appreciate and understand the benefits GenAI can offer or recognise its pitfalls. When applied to experienced programmers (for example, final-year degree students), the inclusion of, and unlimited access to, these tools can provide a constructivist learning environment in which students explore how the tools work and how to integrate them effectively into their own development processes. Results show that allowing GenAI usage during assessments leads to larger, more ambitious solutions being attained, while also encouraging students to learn about GenAI tools and their capabilities [@clift2025learning].
 
 
 ### Using GenAI as an instant feedback tool
